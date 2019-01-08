@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/hoffa/ltsv2json.svg?branch=master)](https://travis-ci.org/hoffa/ltsv2json)
 
-LTSV-to-JSON converter.
-
 Reads LTSV from `stdin` and prints JSON to `stdout`.
 
 ## Installation
