@@ -5,7 +5,7 @@ with open("README.md") as f:
 
 setuptools.setup(
     name="ltsv2json",
-    version="0.1.0",
+    version="0.1.1",
     author="Chris Rehn",
     author_email="chris@rehn.me",
     description="LTSV-to-JSON converter",
