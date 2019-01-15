@@ -7,7 +7,8 @@ import sys
 
 def main():
     signal.signal(signal.SIGPIPE, signal.SIG_DFL)
-    for line in sys.stdin:
+    while True:
+        line = sys.stdin.readline()
         try:
             record = dict(map(lambda f: f.split(":", 1), line.strip().split("\t")))
             print(json.dumps(record, separators=(",", ":")))

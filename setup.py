@@ -5,7 +5,7 @@ with open("README.md") as f:
 
 setuptools.setup(
     name="ltsv2json",
-    version="0.1.1",
+    version="0.1.2",
     author="Chris Rehn",
     author_email="chris@rehn.me",
     description="LTSV-to-JSON converter",
@@ -16,7 +16,7 @@ setuptools.setup(
     entry_points={"console_scripts": {"ltsv2json=ltsv2json:main"}},
     license="MIT",
     classifiers=(
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
