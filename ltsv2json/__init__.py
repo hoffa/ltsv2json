@@ -12,6 +12,7 @@ def main():
         try:
             record = dict(map(lambda f: f.split(":", 1), line.strip().split("\t")))
             print(json.dumps(record, separators=(",", ":")))
+            sys.stdout.flush()
         except ValueError:
             pass
 
