@@ -1,16 +1,15 @@
 import setuptools
 
-with open("README.md") as f:
+with open("README.rst") as f:
     long_description = f.read()
 
 setuptools.setup(
     name="ltsv2json",
-    version="0.1.2",
+    version="1.0.0",
     author="Chris Rehn",
     author_email="chris@rehn.me",
     description="LTSV-to-JSON converter",
     long_description=long_description,
-    long_description_content_type="text/markdown",
     url="https://github.com/hoffa/ltsv2json",
     packages=setuptools.find_packages(),
     entry_points={"console_scripts": {"ltsv2json=ltsv2json:main"}},
