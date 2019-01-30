@@ -1,11 +1,12 @@
 ltsv2json
 =========
 
+Reads LTSV from ``stdin`` and prints JSON to ``stdout``.
+
+
 .. image:: https://travis-ci.org/hoffa/ltsv2json.svg?branch=master
-   :alt: Build Status
    :target: https://travis-ci.org/hoffa/ltsv2json
 
-Reads LTSV from ``stdin`` and prints JSON to ``stdout``.
 
 Installation
 ------------
