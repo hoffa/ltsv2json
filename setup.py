@@ -14,7 +14,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={"console_scripts": {"ltsv2json=ltsv2json:main"}},
     license="MIT",
-    classifiers=(
+    classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
         "License :: OSI Approved :: MIT License",
@@ -22,5 +22,5 @@ setuptools.setup(
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 3",
         "Topic :: Utilities",
-    ),
+    ],
 )
