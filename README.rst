@@ -1,5 +1,5 @@
-ltsv2json |travis|
-==================
+ltsv2json
+=========
 
 Reads LTSV from stdin and prints JSON to stdout.
 
