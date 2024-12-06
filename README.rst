@@ -1,7 +1,7 @@
 ltsv2json
 =========
 
-.. image:: https://img.shields.io/pypi/dm/kitten
+.. image:: https://img.shields.io/pypi/dm/ltsv2json
    :alt: PyPI - Downloads
 
 .. image:: https://img.shields.io/pypi/v/ltsv2json
